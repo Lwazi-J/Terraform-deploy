@@ -1,0 +1,10 @@
+Terraform AWS Spring Boot Deployment
+This project uses Terraform to deploy a Spring Boot application on AWS, utilizing EC2 for compute and S3 for storage. The infrastructure is defined as code and includes automatic provisioning of all necessary AWS resources.
+Architecture Overview
+The deployment consists of:
+
+EC2 instance running the Spring Boot application
+S3 bucket for file storage
+Security Groups for network access control
+VPC configuration with public subnet
+IAM roles and policies for EC2-S3 communication
